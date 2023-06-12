@@ -310,7 +310,8 @@ main {
   z-index: 1000;
   opacity: 1;
   visibility: visible;
-  transition: var(--transition);
+  transition-property: opacity;
+  transition-duration: 0.5s;
 }
 
 .modal-container {
@@ -335,3 +336,5 @@ main {
   cursor: pointer;
   color: var(--red-dark);
 }
+
+/* ======Sidebar======= */
